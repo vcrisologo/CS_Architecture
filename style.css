@@ -1,0 +1,51 @@
+html{
+	background: url("Images/Buildings.png"), pink;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body center img{
+	padding-top: 8vh;
+}
+
+body{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 30px;
+	text-decoration: bold 5px;
+}
+
+#Name{
+	Background: #fff1f3;
+	font-family: 'Architects Daughter', cursive;
+	text-align: center;
+	font-size: 22px;
+	border-radius: 10px;
+}
+
+#subButton{
+	background: #ccff99;
+	text-decoration: none;
+	font-size: 22px;
+	font-family: 'Architects Daughter', cursive;
+	border-radius: 10px;
+}
+
+#subButton:hover{
+	background: #a7eb63;
+}
+
+button{
+	background: #ccff99;
+	font-size: 22px;
+	border-radius: 10px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+button:hover{
+	background: #a7eb63;
+}
+
+#home{
+	text-decoration: none;
+}

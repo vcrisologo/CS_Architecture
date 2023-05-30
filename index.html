@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Architecture</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		<center><img style="display: inline-block" src="Images/ARCHITECTURE.png"></center>
+		
+		<center><div id="message">
+			<p>Hello! Please enter your name below:))</p>
+			
+			<form onsubmit="return myName();">
+				<input type="text" id="Name" name="Name" style="display: block">
+				<label for="Name">Name</label><br/></br>
+				<input id="subButton" type="submit">
+			</form>
+		</div></center>
+		<center><a href="Pages/Home.html" id="home"><button id="button1" style="display: none;" class="real">Go to Contents</button></a></center>
+		
+	</body>
+	
+	<script>
+		function myName(){
+			var name=document.getElementById("Name").value;
+			
+			
+			document.getElementById("message").innerHTML = "Welcome " + name + "!" + " You may now access the contents of this website :)" + "</br>" + 
+														   " Just click the button below to proceed:"+ "</br>" + "</br>";
+			document.getElementById("button1").style.display="block";
+			return false;
+		}
+	</script>
+
+</html>

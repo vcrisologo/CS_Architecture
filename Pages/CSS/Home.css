@@ -1,0 +1,113 @@
+html{
+	background-image: url("Images/Buildings.png");
+	background-attachment: fixed;
+	background-repeat: no-reapeat;
+	background-size: cover;
+	scroll-behavior: smooth;
+}
+
+#logo{
+	width: 90vh;
+}
+
+nav {
+	background-color: pink;
+	height: 12vh;
+	margin-left: 0px;
+	margin-right: 0px;
+	position: -webkit-sticky;
+	position: relative;
+	top: 0;
+	border-radius: 10px;
+}
+
+#HP{
+	margin-left: .8vh;
+}
+
+nav p{
+	font-size: 18px;
+	color: brown;
+	display: inline-block;
+	padding-right: 5vh;
+	padding-left: 5vh;
+	padding-top: .85vh;
+}
+
+
+
+nav a{
+	float: right;
+	font-size: 20.7px;
+	font-family: 'Architects Daughter', cursive;
+	color: black;
+	margin-top: .7vh;
+	padding-right: 5vh;
+	padding-left: 5vh;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	text-decoration: none;
+}
+
+nav a:hover{
+	background-color: #f296a4;
+	border-radius: 25px;
+}
+
+article{
+	font-size: 25px;
+	font-family: 'Architects Daughter', cursive;
+	text-align: justify;
+	padding-left: 6vh;
+	width: 130vh;
+}
+
+article h1{
+	font-size: 30px;
+}
+
+aside {
+	background-color: pink;
+	float: right;
+	width: 55vh;
+	padding-bottom: 1vh;
+	padding-right: 1vh;
+	border-radius: 25px;
+	margin: 10px;
+	display: inline-block;
+	position: sticky;
+	z-index: 0;
+	top: 0;
+	right: 0;
+	overflow-y: hidden;
+	padding-top: .9vh;
+}
+
+aside a{
+	font-family: 'Architects Daughter', cursive;
+	text-decoration: none;
+	color: black;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	padding-right: 1vh;
+	padding-left: 1vh;
+}
+
+aside a:hover{
+	background: #f296a4;
+	
+	border-radius: 25px;
+}
+
+aside ul img{
+	width: 25vh;
+	padding-left: 9vh;
+}
+
+footer{
+	font-family: 'Architects Daughter', cursive;
+	border-radius: 10px;
+	height: 15vh;
+	padding-top: 1vh;
+	background: #e7cfff;
+}
